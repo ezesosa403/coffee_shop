@@ -1,4 +1,4 @@
-var imagenes = ['img/café_negro.jpg', 'img/capuchino_clásico.jpg', 'img/café_con_leche.jpg', 'img/café_con_hielo.jpg']
+var imagenes = ['img/cafe2.jfif', 'img/cafe3.jfif', 'img/cafe1.jfif', 'img/cafe4.jpg']
     i = 0;
 
 function carrousel(cont) {
