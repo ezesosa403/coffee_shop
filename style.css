@@ -5,10 +5,9 @@
 #principal {
     background-image: url(img/barista.jpg);
     background-size: cover;
-    background-position: center 5px;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh;
 }
 h1 {
     font-family: 'Playfair Display', serif;
@@ -17,8 +16,8 @@ h1 {
     background-color: black;
     text-shadow: 2px 2px 5px rgb(50, 8, 8);
     color: #8d4925;
-    padding: 10px;
-    font-size: 2.5rem;
+    padding: 20px;
+    font-size: 50px;
 }
 nav ul {
     background-color: #8d4925;
@@ -38,7 +37,7 @@ nav a {
 nav li:hover {
     background-color: #804000;
 }
-img {
+.contenido img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -49,8 +48,8 @@ h2 {
     text-align: center;
     height: 50px;
     color: #8d4925;
-    font-size: 2rem;
-    margin: 1rem 0;
+    font-size: 45px;
+    margin: 20px;
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
 .contenido {
@@ -60,10 +59,33 @@ h2 {
 }
 
 .contenido p {
+    font-size: 20px;
     color: white;
     font-family: cursive;
     text-align: center;
-    font-size: medium;
     margin-right: 10px;
 }
+
+.carrousel {
+    text-align: center;
+}
+
+.carrousel img {
+    width: 500px;
+    height: 750px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carrousel button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: black;
+    border-radius: 15%;
+    background-color: #804000;
+    color: white;
+    margin: 5px;
+}
+
 
