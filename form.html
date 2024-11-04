@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brisa en grano</title>
+    <link rel="icon" href="img/coffee_3197642.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="formulario">
+        <h1>BRISA EN GRANO</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="info.html">Información</a></li>
+                <li><a href="form.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <h2>¿Buscas Reserva?<br>
+        Completa nuestro formulario.</h2>
+        <div class="contenido">
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+                <br>
+                <label for="telefono">Telefono:</label>
+                <input type="number" name="telefono" id="telefono">
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div id="result"></div>
+        <div id="errorMessages" class="error"></div>
+        <script src="auth.js"></script>
+        <div class="contactános">
+            <h2>Contactános</h2>
+            <p>Teléfono: +123 456 7890</p>
+        </div>
+    </div>
+</body>
+</html>
